@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "60123e4d437f9a08a8b5",
+    "revision": "f4a00f710969a2fa668e",
     "url": "/redux-modal-component/static/css/main.9c07a35f.chunk.css"
   },
   {
-    "revision": "60123e4d437f9a08a8b5",
-    "url": "/redux-modal-component/static/js/main.60123e4d.chunk.js"
+    "revision": "f4a00f710969a2fa668e",
+    "url": "/redux-modal-component/static/js/main.f4a00f71.chunk.js"
   },
   {
     "revision": "4907197bf0609ad0ccd0",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/redux-modal-component/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "5a0c83147e8e06e3861a6a271f7e5c61",
+    "revision": "1d41191cbd956f5910532e664e0b4efc",
     "url": "/redux-modal-component/index.html"
   }
 ];
