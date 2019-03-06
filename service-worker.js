@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/JaymesKat/redux-modal-component/precache-manifest.cf748a73884e0078b25e8f2380e7dab4.js"
+  "/redux-modal-component/precache-manifest.fbe4bed8dcc377c6404f81e593407b60.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/JaymesKat/redux-modal-component/index.html", {
+workbox.routing.registerNavigationRoute("/redux-modal-component/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

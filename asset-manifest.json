@@ -1,14 +1,14 @@
 {
-  "main.css": "/JaymesKat/redux-modal-component/static/css/main.9c07a35f.chunk.css",
-  "main.js": "/JaymesKat/redux-modal-component/static/js/main.2539c008.chunk.js",
-  "main.js.map": "/JaymesKat/redux-modal-component/static/js/main.2539c008.chunk.js.map",
-  "runtime~main.js": "/JaymesKat/redux-modal-component/static/js/runtime~main.d12a2b19.js",
-  "runtime~main.js.map": "/JaymesKat/redux-modal-component/static/js/runtime~main.d12a2b19.js.map",
-  "static/js/2.53f0fd9f.chunk.js": "/JaymesKat/redux-modal-component/static/js/2.53f0fd9f.chunk.js",
-  "static/js/2.53f0fd9f.chunk.js.map": "/JaymesKat/redux-modal-component/static/js/2.53f0fd9f.chunk.js.map",
-  "index.html": "/JaymesKat/redux-modal-component/index.html",
-  "precache-manifest.cf748a73884e0078b25e8f2380e7dab4.js": "/JaymesKat/redux-modal-component/precache-manifest.cf748a73884e0078b25e8f2380e7dab4.js",
-  "service-worker.js": "/JaymesKat/redux-modal-component/service-worker.js",
-  "static/css/main.9c07a35f.chunk.css.map": "/JaymesKat/redux-modal-component/static/css/main.9c07a35f.chunk.css.map",
-  "static/media/logo.svg": "/JaymesKat/redux-modal-component/static/media/logo.5d5d9eef.svg"
+  "main.css": "/redux-modal-component/static/css/main.9c07a35f.chunk.css",
+  "main.js": "/redux-modal-component/static/js/main.60123e4d.chunk.js",
+  "main.js.map": "/redux-modal-component/static/js/main.60123e4d.chunk.js.map",
+  "runtime~main.js": "/redux-modal-component/static/js/runtime~main.4907197b.js",
+  "runtime~main.js.map": "/redux-modal-component/static/js/runtime~main.4907197b.js.map",
+  "static/js/2.53f0fd9f.chunk.js": "/redux-modal-component/static/js/2.53f0fd9f.chunk.js",
+  "static/js/2.53f0fd9f.chunk.js.map": "/redux-modal-component/static/js/2.53f0fd9f.chunk.js.map",
+  "index.html": "/redux-modal-component/index.html",
+  "precache-manifest.fbe4bed8dcc377c6404f81e593407b60.js": "/redux-modal-component/precache-manifest.fbe4bed8dcc377c6404f81e593407b60.js",
+  "service-worker.js": "/redux-modal-component/service-worker.js",
+  "static/css/main.9c07a35f.chunk.css.map": "/redux-modal-component/static/css/main.9c07a35f.chunk.css.map",
+  "static/media/logo.svg": "/redux-modal-component/static/media/logo.5d5d9eef.svg"
 }
