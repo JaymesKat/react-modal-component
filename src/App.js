@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import ModalRoot from './ModalRoot';
+import logo from './logo.svg';
 
 import './dist/css/template.css';
 import './App.css';
@@ -18,32 +19,22 @@ const mapDispatchToProps = dispatch => ({
 })
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.closeModal = this.closeModal.bind(this);
-    this.onInputChange = this.onInputChange.bind(this);
-    this.openAlertModal = this.openAlertModal.bind(this);
-    this.openConfirmModal = this.openConfirmModal.bind(this);
-    this.openDeleteModal = this.openDeleteModal.bind(this);
-    this.openPromptModal = this.openPromptModal.bind(this);
-    this.showInput = this.showInput.bind(this);
-  }
 
-  closeModal(event) {
+  closeModal = () => { 
     this.props.hideModal();
   }
 
-  onInputChange(event) {
+  onInputChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value
     });
   }
 
-  showInput(event) {
+  showInput = () =>  {
     console.log(this.state);
   }
 
-  openAlertModal(event) {
+  openAlertModal = () =>  {
     this.props.showModal({
       open: true,
       title: 'Alert Modal',
@@ -52,7 +43,7 @@ class App extends Component {
     }, 'alert')
   }
 
-  openConfirmModal(event) {
+  openConfirmModal = () =>  {
     this.props.showModal({
       open: true,
       title: 'Confirm Modal',
@@ -62,7 +53,7 @@ class App extends Component {
     }, 'confirm')
   }
 
-  openDeleteModal(event) {
+  openDeleteModal = () =>  {
     this.props.showModal({
       open: true,
       title: 'Delete Modal',
@@ -73,7 +64,7 @@ class App extends Component {
     }, 'delete')
   }
 
-  openPromptModal(event) {
+  openPromptModal = () =>  {
     this.props.showModal({
       open: true,
       title: 'Prompt Modal',
@@ -92,6 +83,7 @@ class App extends Component {
       <div className="app">
         <div className="container">
           <header className="app-header">
+            <img src={logo} className="app-logo" alt="logo" />
             <h1 className="app-title">A Redux Modal Component</h1>
           </header>
           <div className="modal-types row d-flex justify-content-center align-items-center">
