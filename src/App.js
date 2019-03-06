@@ -82,10 +82,12 @@ class App extends Component {
     return (
       <div className="app">
         <div className="container">
-          <header className="app-header">
-            <img src={logo} className="app-logo" alt="logo" />
-            <h1 className="app-title">A Redux Modal Component</h1>
-          </header>
+          <div className="col-sm-4 mx-auto mb-3">
+            <header className="app-header">
+              <img src={logo} className="app-logo" alt="logo" />
+            </header>
+          </div>
+          <h1 className="app-title jumbotron">A Redux Modal Component</h1>
           <div className="modal-types row d-flex justify-content-center align-items-center">
             <div className="col">
               <button
