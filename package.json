@@ -2,8 +2,10 @@
   "name": "redux-modal-component",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jaymeskat.github.io/redux-modal-component",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "keymirror": "^0.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -14,6 +16,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

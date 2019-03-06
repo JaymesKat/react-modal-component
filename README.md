@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This app demonstrates creating reusable modals using redux
 
 ### Demo
-View app here
+View app [here](https://jaymeskat.github.io/redux-modal-component)
 
 ### Credits
 
