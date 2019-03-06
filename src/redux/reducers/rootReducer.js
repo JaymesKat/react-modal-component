@@ -2,7 +2,8 @@
  src/reducers/rootReducer.js
 */
 import { combineReducers } from 'redux';
-import simpleReducer from './simpleReducer';
+import modalReducer from './modalReducer';
+
 export default combineReducers({
- simpleReducer
+ modalReducer
 });
